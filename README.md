@@ -396,8 +396,8 @@ Esta sección está para ayudarte a llevar un control de lo que vas completando.
 * [ ] `README.md` (o otro archivo) contiene tu plan de acción - Objetivos que prioritizaste este proyecto.
 * [ ] Usa VanillaJS.
 * [ ] No utiliza `this`.
-* [ ] Implementa `validator.isValid`.
-* [ ] Implementa `validator.maskify`.
+* [X] Implementa `validator.isValid`.
+* [X] Implementa `validator.maskify`.
 * [ ] Pasa linter con configuración provista.
 * [ ] Pasa pruebas unitarias.
 * [ ] Pruebas unitarias cubren 70% de _statements_, _functions_ y _lines_, y un

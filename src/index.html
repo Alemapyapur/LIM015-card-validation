@@ -6,9 +6,35 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header>Hola </header>
-    <main></main>
-    <footer></footer>
+    <header>Valida tu Tarjeta </header>
+    <nav>
+      <ul>
+          <li><a href="#">1</a></li>
+          <li><a href="#">2</a></li>
+          <li><a href="#">3</a></li>
+          <li><a href="#">4</a></li>
+      </ul>
+    </nav>
+
+    <article>
+      <h2>Valida tu tarjeta de credito</h2>
+      <div>Si el numero de tarjeta comienza con 45 es visa</div>
+    </article>
+      <section>
+        <label for="NumberCard">Numero de Tarjeta</label>
+        <input class="NumberCards" type="text" id="creditCardNumber" placeholder="1234 5678 1234 5678" maxlength="16">
+        <input type="button" class="button" id="validar" value="Verificar">
+        <p id="resultado"></p>
+      </section>
+
+    <aside>
+      <div>
+      </div>
+    </aside>
+
+    <footer>
+      <p>&#169 BOOTCAMP LABORATORIA LIM015</p>
+    </footer>
     <script src="index.js" type="module"></script>
   </body>
 </html>

@@ -6,11 +6,42 @@ body {
 }
 
 header {
-    padding: 40px;
+    padding: 0px;
     text-align: center;
-    background-color: rgb(233, 54, 164);
+    background-color: #6a67ce;
     color: white;
     font-size: 25px;
+}
+
+#navbar {
+    list-style-type: none;
+    text-align: center;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #6a67ced0;
+}
+
+/* el navbar lo pone a la derecha */
+ul#navbar li {
+    float: left;
+}
+
+ul#navbar li a {
+    display: block;
+    justify-content: center;
+    color: #f1e4e4;
+    font-weight: lighter;
+    width: 275px;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+/* sombrea los cuadros al pasar el mouse encima */
+li a:hover {
+    background-color: #3be8b0;
+    color: white;
 }
 
 footer {
@@ -18,33 +49,78 @@ footer {
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: rgb(177, 30, 120);
+    background-color: #6a67ce;
     color: white;
     text-align: center;
-    padding: 20px;
+    padding: 10px;
 }
 
-button {
-    background-color: rgb(233, 54, 164);
+.button {
+    border-radius: 10px;
+    border: 1px solid rgb(22, 27, 29);
+    font-weight: 800;
+    display: block;
+    padding: 5px 10px;
+    margin: 35px auto;
+    align-items: center;
+    width: 40%;
+}
+.button:hover {
+    background-color: #3be8b0;
     color: white;
-    padding: 10px 10px;
-    text-align: center;
-    text-decoration: none;
-    font-size: 16px;
-    margin: 2px 2px;
-    cursor: pointer;
-    border-radius: 5px;
 }
 
-.contenido {
-    text-align: center;
-    padding: 20px;
+.principal {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+    background-color: whitesmoke;
+    border: 1px solid #6a67ceda;
+    box-shadow: 0 4px 8px rgb(117 92 92 / 65%);
+    border-radius: 15px;
 }
 
-.imagen {
-    margin-bottom: 50px;
-    max-width: 250px;
+img {
     width: 100%;
-    float: right;
 }
 
+.figura {
+    width: 20%
+}
+
+.intro{
+    text-align: center;
+    margin-top: 80px;
+}
+
+.formulario {
+    text-align: center;
+    margin-top: 100px;
+}
+
+/* section {
+    border-radius: 15px;
+    border: 1px solid #6a67ceda;
+    box-shadow: 0 4px 8px rgb(117 92 92 / 65%);
+    background-color: #6a67ce80;
+    padding: 10px 0px 0px;
+    margin: 30px auto;
+    height: 100px;
+    width: 350px;
+} */
+
+h1 {
+    margin: 0;
+    top: 0px;
+    text-align: center;
+}
+
+.msjresultado {
+    border-radius: 15px;
+    border: 1px solid #2e2e31da;
+    box-shadow: 0 4px 8px rgb(117 92 92 / 65%);
+    text-align: center;
+    margin: 10px auto 10px;
+    height: 100px;
+    width: 350px;
+}

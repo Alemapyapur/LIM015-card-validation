@@ -6,31 +6,43 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header>Valida tu Tarjeta </header>
+    <header>
+      <h1>CARDVALID WEB</h1>
     <nav>
-      <ul>
-          <li><a href="#">1</a></li>
-          <li><a href="#">2</a></li>
-          <li><a href="#">3</a></li>
-          <li><a href="#">4</a></li>
+      <ul id="navbar">
+          <li><a href="#">Inicio</a></li>
+          <li><a href="#">Información</a></li>
+          <li><a href="#">Sobre nosotros</a></li>
+          <li><a href="#">Contacto</a></li>
       </ul>
     </nav>
+  </header>
 
-    <article>
-      <h2>Valida tu tarjeta de credito</h2>
-      <div>Si el numero de tarjeta comienza con 45 es visa</div>
-    </article>
-      <section>
-        <label for="NumberCard">Numero de Tarjeta</label>
-        <input class="NumberCards" type="text" id="creditCardNumber" placeholder="1234 5678 1234 5678" maxlength="16">
-        <input type="button" class="button" id="validar" value="Verificar">
-        <p id="resultado"></p>
+    <main>
+      <section class="principal">
+        <section class="intro">
+            <h2>Valida tu tarjeta de credito</h2>
+            <p>Verifica si tu tarjeta esta habilitada</p>
+        </section>
+
+        <section class="formulario">
+          <label for="NumberCard">Numero de Tarjeta</label>
+          <input class="NumberCards" type="text" id="creditCardNumber" placeholder="1234 5678 1234 5678" maxlength="16">
+          <p><input type="button" class="button" id="validar" value="Verificar"></p>
+        </section>
+
+        <figure class="figura">
+          <img class="imagen" src="../src/img/creditcard2.png">
+        </figure>
       </section>
 
-    <aside>
-      <div>
-      </div>
-    </aside>
+
+      <section class="msjresultado">
+          <p id="resultado"></p>
+          <p id="trueOrFalse"></p>
+      </section>
+
+    </main>
 
     <footer>
       <p>&#169 BOOTCAMP LABORATORIA LIM015</p>

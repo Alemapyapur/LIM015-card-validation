@@ -2,7 +2,7 @@ const validator = {
   // ...
     isValid:(creditCardNumber)=>{
       creditCardNumber = creditCardNumber.split(' ').join("");
-      console.log(creditCardNumber)
+      // console.log(creditCardNumber)
       if (parseInt(creditCardNumber) <= 0 || (!/\d{10,16}(~\W[a-zA-Z])*$/.test(creditCardNumber)) || creditCardNumber.length > 16) {
     return false;
     }
@@ -11,7 +11,7 @@ const validator = {
       carray[carray.length] = creditCardNumber.charCodeAt(i) - 48;
     }
     carray.reverse();
-    console.log(carray)
+    // console.log(carray)
     let sum = 0;
     for (let i = 0; i < carray.length; i++) {
     let tmp = carray[i];
@@ -23,7 +23,7 @@ const validator = {
     }
     sum += tmp;
   }
-  console.log(sum)
+  // console.log(sum)
   return ((sum % 10) == 0);
   },
 

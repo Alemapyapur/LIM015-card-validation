@@ -40,3 +40,11 @@ button {
     text-align: center;
     padding: 20px;
 }
+
+.imagen {
+    margin-bottom: 50px;
+    max-width: 250px;
+    width: 100%;
+    float: right;
+}
+

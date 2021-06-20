@@ -133,7 +133,7 @@ Cuando de clic en el botón, sólo deben ser visibles los últimos 4 número, es
 * [ ] `README.md` explica claramente cómo el producto soluciona los
   problemas/necesidades de los usuarios.
 * [ ] `README.md` (o otro archivo) contiene tu plan de acción - Objetivos que prioritizaste este proyecto.
-* [ ] Usa VanillaJS.
+* [ ] Usa VanillaJS
 * [X] No utiliza `this`.
 * [X] Implementa `validator.isValid`.
 * [X] Implementa `validator.maskify`.

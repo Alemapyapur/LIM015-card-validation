@@ -44,13 +44,14 @@ como tecnologías.
 ## 3. Consideraciones generales
 #### Visualmente (HTML y CSS)
 
-Maqueta de prototipo final en una herramienta de diseño
+* Maqueta de prototipo final en una herramienta de diseño
 ![](src/img/prototipo-imagen.png)
 
-Los colores que se utiliaron
+* Los colores que se utilizaron
+
 ![](src/img/colores.png)
 
-Resultado final
+* Resultado final
 
 ![](src/img/cardvalid.png)
 

@@ -5,9 +5,8 @@
 * [1. Resumen del proyecto](#1-resumen-del-proyecto)
 * [2. Objetivos de aprendizaje](#2-objetivos-de-aprendizaje)
 * [3. Consideraciones generales](#3-consideraciones-generales)
-* [4. Hacker edition](#4-hacker-edition)
-* [5. Consideraciones técnicas](#5-consideraciones-técnicas)
-* [6. Checklist](#6-checklist)
+* [4. Consideraciones técnicas](#4-consideraciones-técnicas)
+* [5. Checklist](#5-checklist)
 
 ***
 
@@ -98,35 +97,24 @@ mínimo del 50% de _branches_ (ramas).
 ![](src/img/passtestvalidator.png)
 
 
-***
-## 5. Hacker edition
-
-Las secciones llamadas _Hacker Edition_ son **opcionales**. Si **terminaste**
-con todo lo anterior y te queda tiempo, intenta completarlas. Así podrás
-profundizar y/o ejercitar más sobre los objetivos de aprendizaje del proyecto.
-
-En esta versión Hacker edition puedes además de validar si el número de la
-tarjeta es válida, mostrar la [franquicia](https://es.wikipedia.org/wiki/N%C3%BAmero_de_tarjeta_bancaria) de la tarjeta (ej: Visa, MasterCard, etc)
-usando estas [reglas de validación](https://stevemorse.org/ssn/cc.html).
-
 
 ***
-## 6. Consideraciones técnicas
+## 4. Consideraciones técnicas
 
 **"validar" que el input sea numérico**
-Crea una interfaz simple con 1 caja de texto y un botón. Si escribo algo en la caja de texto 1 y le doy click al botón, quiero que valide que sea sólo números y que no esté vacío.
+Se creo una interfaz simple con 1 caja de texto y un botón. Si se escribe algo en la caja de texto 1 y le doy click al botón, para que pueda validar y sólo sea números y que no esté vacío.
 
 **"validar" si la tarjeta de crédito es válida**
-Cuando de clic en el botón, debe indicarnos si la tarjeta es válida o no.
+Cuando se da clic en el botón, se indica si la tarjeta es válida o no.
 
 **"mostrar" sólo los últimos 4 números**  =
-Cuando de clic en el botón, sólo deben ser visibles los últimos 4 número, es decir, debe ocultar los otros números (ej: si escribo 12304589, debe salir después ####4589).
+Cuando se da clic en el botón, solo sera visible los últimos 4 número, es decir, se ocultara los otros números (ej: si escribo 12304589, debe salir después ####4589).
 
 ![](src/img/cardvalid-valida.png)
 
 ![](src/img/cardvalid-invalida.png)
 
-## 7. Checklist
+## 5. Checklist
 
 * [X] `README.md` incluye info sobre proceso y decisiones de diseño.
 * [X] `README.md` explica claramente quiénes son los usuarios y su relación con

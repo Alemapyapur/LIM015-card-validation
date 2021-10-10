@@ -1,4 +1,4 @@
-# CARDVALID WEB &nbsp;  ![](https://komarev.com/ghpvc/?username=alemapyapur&color=blueviolet)
+# CARDVALID WEB &nbsp; ![](https://komarev.com/ghpvc/?username=alemapyapur&color=blueviolet)
 
 ## Índice
 
